@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-background: #0d1326;
+    --color-foreground: #f8fafc;
+    --color-card: #161f38;
+    --color-card-foreground: #f8fafc;
+    --color-muted: #1e293b;
+    --color-muted-foreground: #94a3b8;
+    --color-border: rgba(212, 175, 55, 0.28);
+    --color-ring: #d4af37;
+    --color-chart-1: #10b981;
+    --color-chart-2: #ef4444;
+    --color-chart-3: #f59e0b;
+    --color-chart-4: #38bdf8;
+    --color-chart-5: #c084fc;
+  }
+}
+
+@theme {
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
+  --color-card: var(--color-card);
+  --color-card-foreground: var(--color-card-foreground);
+  --color-muted: var(--color-muted);
+  --color-muted-foreground: var(--color-muted-foreground);
+  --color-border: var(--color-border);
+  --color-ring: var(--color-ring);
+  --color-chart-1: var(--color-chart-1);
+  --color-chart-2: var(--color-chart-2);
+  --color-chart-3: var(--color-chart-3);
+  --color-chart-4: var(--color-chart-4);
+  --color-chart-5: var(--color-chart-5);
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #0b1021;
+  color: #f8fafc;
+  overflow-x: hidden;
+}
+
+.font-serif-kr {
+  font-family: 'Noto Serif KR', serif;
+}
